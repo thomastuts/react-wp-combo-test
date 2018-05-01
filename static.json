@@ -4,6 +4,11 @@
     "/static/*": "/static/",
     "/**": "index.html"
   },
+  "proxies": {
+    "/blog/": {
+      "origin": "https://www.smashingmagazine.com/"
+    }
+  },
   "https_only": true,
   "headers": {
     "/images/**": {
