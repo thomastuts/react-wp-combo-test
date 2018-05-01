@@ -1,0 +1,22 @@
+{
+  "root": "build/",
+  "routes": {
+    "/static/*": "/static/",
+    "/**": "index.html"
+  },
+  "https_only": true,
+  "headers": {
+    "/images/**": {
+      "Cache-Control": "max-age=1209600"
+    },
+    "/favicon.ico": {
+      "Cache-Control": "max-age=1209600"
+    },
+    "/fonts/stylesheet.css": {
+      "Cache-Control": "max-age=1209600"
+    },
+    "/vendor/three-plugins.js": {
+      "Cache-Control": "max-age=1209600"
+    }
+  }
+}
