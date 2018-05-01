@@ -11,6 +11,9 @@ const App = () => (
         <li>
           <Link to="/about">About</Link>
         </li>
+        <li>
+          <a href="/blog">Blog</a>
+        </li>
       </ul>
 
       <h1>React + WP combo POC</h1>

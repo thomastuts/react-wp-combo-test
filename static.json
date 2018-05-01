@@ -5,6 +5,9 @@
     "/**": "index.html"
   },
   "proxies": {
+    "/blog": {
+      "origin": "https://www.smashingmagazine.com"
+    },
     "/blog/": {
       "origin": "https://www.smashingmagazine.com/"
     }
